@@ -10,7 +10,7 @@
 
 module.exports = (robot) ->
 
-  robot.hear /(おはよう)/i, (res) ->
+  robot.hear /おはよう/i, (res) ->
     res.send "おはようにゃ！"
   #
   # robot.respond /open the (.*) doors/i, (res) ->
